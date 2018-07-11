@@ -8,5 +8,10 @@ This database review will focus on creating a simple todo list and persisting th
 ```bash
 npm install
 npm start
+
 npm run build
+
+mongod
+
+mongo
 ```
