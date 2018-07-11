@@ -1,5 +1,3 @@
-const Promise = require('bluebird');
-Promise.promisifyAll(require('mongoose'));
 const db = require('../models');
 
 const listData = [
