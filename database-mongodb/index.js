@@ -1,5 +1,4 @@
-const Promise = require('bluebird');
-const mongoose = Promise.promisifyAll(require('mongoose'));
+var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/todolist', { useNewUrlParser: true });
 
 // https://stackoverflow.com/questions/51156334/unhandled-rejection-mongoerror-port-must-be-specified

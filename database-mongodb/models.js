@@ -1,6 +1,5 @@
 const db = require('./');
-const Promise = require('bluebird');
-const mongoose = Promise.promisifyAll(require('mongoose'));
+const mongoose = require('mongoose');
 
 const listSchema = mongoose.Schema({
   name: { type: String, require: true },

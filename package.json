@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack -w",
     "start": "nodemon server",
-    "seed": "node database-mysql/bin/seedData.js",
+    "seed": "node database-mongodb/bin/seedData.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
