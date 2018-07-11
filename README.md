@@ -1,4 +1,4 @@
-# node-review
+# databases-review-mongodb
 
 This database review will focus on creating a simple todo list and persisting the data in a MongoDB database using Mongoose.
 
